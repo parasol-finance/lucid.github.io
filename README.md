@@ -1,5 +1,5 @@
-# Official Lucid KV Website
+# Official Parasol Finance ($PSOL) Website
 
-This is the first base of the Lucid KV Store website.
+The First Community Governed IDO Platform.
 
-![preview](https://user-images.githubusercontent.com/5221349/72672418-fb400a80-3a59-11ea-9ad5-8528ab7fb17f.png)
+![preview](https://user-images.githubusercontent.com/5221349/141646273-221dd847-5706-46ef-bad3-56422bee9edb.png)
