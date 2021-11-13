@@ -52,7 +52,7 @@ body {
 	padding: 12px 15px;
 	color: #1d1b26;
 	text-decoration: none;
-	border-radius: 3px;
+	border-radius: 7px;
 	margin-top: 15px;
 	text-align: center;
     font-size: 121%;
@@ -91,11 +91,14 @@ body {
 
 	.showcase img {
 		height: initial;
-		width: 40vw;
+		width: 50vw;
 	}
 
 	.showcase h1 {
-		font-size: 40pt;
+        font-size: 28pt;
+        text-align: center;
+        line-height: 4rem;
+        margin-bottom: 1rem;
 	}
 
 	.showcase p {
