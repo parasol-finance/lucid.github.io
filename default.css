@@ -1,116 +1,115 @@
 body {
-    background-color: #1d1b26;
-    font-family: "Inter UI", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    margin: 0;
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.5;
-    color: #EEEEEE;
-    text-align: left;
+	background-color: #FFFFFF;
+	font-family: "Inter UI", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+	margin: 0;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.5;
+	color: #1d1b26;
+	text-align: left;
 }
 
 .showcase {
-    font-family: 'Noto Sans', sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    height: 95vh;
+	font-family: 'Noto Sans', sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: 95vh;
 }
 
 .showcase img {
-    height: 35vh;
-    -webkit-filter: drop-shadow(5px 5px 5px rgb(17, 24, 20));
-    filter: drop-shadow(5px 5px 5px rgb(17, 24, 20));
-    animation: float 6s ease-in-out infinite;
+	height: 40vh;
+	/* -webkit-filter: drop-shadow(5px 5px 5px rgba(17, 24, 20, .21));
+    filter: drop-shadow(5px 5px 5px rgba(17, 24, 20, .21)); */
+	animation: float 6s ease-in-out infinite;
 }
 
 .showcase h1 {
-    font-weight: 900;
-    font-size: 60pt;
-    margin: 20px 20px 0;
+	font-weight: 900;
+	font-size: 55pt;
+	margin: 20px 20px 0;
 }
 
 .showcase h2 {
-    font-size: 30pt;
-    margin: 0;
-    font-weight: 400;
+	font-size: 30pt;
+	margin: 0;
+	font-weight: 400;
 }
 
 .showcase p {
-    font-size: 17pt;
-    text-align: center;
+	font-size: 21pt;
+	text-align: center;
+    margin-top: 0;
 }
 
 .showcase div {
-    margin-top: 30px;
+	margin-top: 30px;
 }
 
 .btn {
-    border: 1px solid white;
-    padding: 12px 15px;
-    color: white;
-    text-decoration: none;
-    border-radius: 3px;
-    margin-top: 15px;
-    text-align: center;
+	border: 1px solid #1d1b26;
+	padding: 12px 15px;
+	color: #1d1b26;
+	text-decoration: none;
+	border-radius: 3px;
+	margin-top: 15px;
+	text-align: center;
+    font-size: 121%;
 }
 
 .btn.fill {
-    background-color: white;
-    color: #1d1b26;
+	background-color: #1d1b26;
+	color: #FFFFFF;
 }
 
-.showcase .btn:not(.fill)
-{
-    margin-left: 10px;
+.showcase .btn:not(.fill) {
+	margin-left: 10px;
 }
 
 @keyframes float {
-    0% {
-        -webkit-transform: translatey(0px);
-        transform: translatey(0px);
-    }
+	0% {
+		-webkit-transform: translatey(0px);
+		transform: translatey(0px);
+	}
 
-    50% {
-        -webkit-transform: translatey(-20px);
-        transform: translatey(-20px);
-    }
+	50% {
+		-webkit-transform: translatey(-20px);
+		transform: translatey(-20px);
+	}
 
-    100% {
-        -webkit-transform: translatey(0px);
-        transform: translatey(0px);
-    }
+	100% {
+		-webkit-transform: translatey(0px);
+		transform: translatey(0px);
+	}
 }
 
 @media (max-width: 991px) {
-    .showcase {
-        height: 100vh;
-    }
+	.showcase {
+		height: 100vh;
+	}
 
-    .showcase img {
-        height: initial;
-        width: 60vw;
-        /* margin-bottom: 50px; */
-    }
+	.showcase img {
+		height: initial;
+		width: 40vw;
+	}
 
-    .showcase h1 {
-        font-size: 40pt;
-    }
+	.showcase h1 {
+		font-size: 40pt;
+	}
 
-    .showcase p {
-        font-size: 12pt;
-        padding: 0 20px;
-    }
+	.showcase p {
+		font-size: 12pt;
+		padding: 0 20px;
+	}
 
-    .showcase div {
-        display: flex;
-        margin-top: initial;
-        flex-direction: column;
-    }
+	.showcase div {
+		display: flex;
+		margin-top: initial;
+		flex-direction: column;
+	}
 
-    .showcase .btn:not(.fill)
-    {
-        margin-left: initial;
-    }
+	.showcase .btn:not(.fill) {
+		margin-left: initial;
+	}
 }
