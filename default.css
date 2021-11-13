@@ -19,7 +19,7 @@ body {
 }
 
 .showcase img {
-	height: 40vh;
+	height: 30vh;
 	/* -webkit-filter: drop-shadow(5px 5px 5px rgba(17, 24, 20, .21));
     filter: drop-shadow(5px 5px 5px rgba(17, 24, 20, .21)); */
 	animation: float 6s ease-in-out infinite;
